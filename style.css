@@ -1,0 +1,59 @@
+/* Base Styles */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3, h4 {
+    color: white;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+a {
+    color: #4da6ff;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Mobile Devices සඳහා Responsive Styles */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    ul {
+        padding-left: 20px;
+        font-size: 14px;
+    }
+
+    li {
+        margin-bottom: 8px;
+    }
+}
